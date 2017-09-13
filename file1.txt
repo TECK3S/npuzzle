@@ -1,0 +1,18 @@
+Le taquin doit prendre en compte des fichiers au format ascii, extension .txt.
+Le fichier d'input indique sur une première ligne la taille (largueur) du plateau. Nous ne définirons que des plateaux carrés.
+Le fichier présente ensuite les case sous forme d'un tableau, chaque chiffre espacés d'un ou plusieurs espaces.
+Notez que pour une meilleure visibilité, des espaces peuvent se placer en début de ligne (voir exemple 4x4).
+Les commentaires seront précédés du caractère #
+
+<size (n)>
+<case#1.1> <case#1.2> ... <case#1.n>
+<case#2.1> <case#2,2> ... <case#1.n>
+...
+<case#n.1> <case#n.2> ... <case#n.n>
+
+exemple pour un 3x3 :
+# un exemple de 3x3
+3
+3 2 6
+1 4 0
+8 7 5
